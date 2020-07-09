@@ -3,10 +3,13 @@ package com.gs.utils;
 import com.gs.controller.PageController;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.util.CollectionUtils;
 
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import java.util.Arrays;
+import java.util.Collections;
 import java.util.UUID;
 
 /**
@@ -24,9 +27,11 @@ public class CookieUtils {
 
     public static void addToken(HttpServletRequest request, HttpServletResponse response) {
         Cookie[] cookies = request.getCookies();
-        for (Cookie c : cookies) {
-            if (tokenKey.equals(c.getName())) {
-                return;
+        if(cookies != null) {
+            for (Cookie c : cookies) {
+                if (tokenKey.equals(c.getName())) {
+                    return;
+                }
             }
         }
         Cookie cookie = new Cookie(tokenKey, UUID.randomUUID().toString());
@@ -35,10 +40,12 @@ public class CookieUtils {
 
     public static String verifyToken(HttpServletRequest request, HttpServletResponse response) {
         Cookie[] cookies = request.getCookies();
-        for (Cookie c : cookies) {
-            if (tokenKey.equals(c.getName())) {
-                logger.info("获取token:{}", c.getValue());
-                return c.getValue();
+        if(cookies != null){
+            for (Cookie c : cookies) {
+                if (tokenKey.equals(c.getName())) {
+                    logger.info("获取token:{}", c.getValue());
+                    return c.getValue();
+                }
             }
         }
         String tokenValue = UUID.randomUUID().toString();

@@ -18,7 +18,7 @@ public class WebMvcConfig extends WebMvcConfigurationSupport {
 
     @Override
     public void addInterceptors(InterceptorRegistry registry) {
-        registry.addInterceptor(tokenInterceptor()).addPathPatterns("/**");
+        registry.addInterceptor(tokenInterceptor()).addPathPatterns("/**").excludePathPatterns("/favicon.ico");
     }
 
     public TokenInterceptor tokenInterceptor(){

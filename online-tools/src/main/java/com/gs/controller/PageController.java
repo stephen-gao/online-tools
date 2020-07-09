@@ -26,7 +26,7 @@ public class PageController {
     @ResponseBody
     @GetMapping("/pdf2png")
     public String pdf2Png(HttpServletRequest request, HttpServletResponse response){
-//        CookieUtils.verifyToken(request, response);
+        response.setHeader("tt","tttttttttt");
 
         return "success";
     }
