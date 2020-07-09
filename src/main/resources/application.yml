@@ -1,6 +1,0 @@
-server:
-  port: 8081
-
-file:
-  out:
-    path: D:\test\pdf\out\
