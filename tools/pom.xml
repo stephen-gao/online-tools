@@ -20,6 +20,23 @@
             <version>2.0.13</version>
         </dependency>
 
+        <!-- itextpdf,导出pdf核心架包 -->
+        <dependency>
+            <groupId>com.itextpdf</groupId>
+            <artifactId>itext7-core</artifactId>
+            <version>7.1.2</version>
+            <type>pom</type>
+        </dependency>
+
+        <!--itext7 html转pdf用到的包-->
+
+        <dependency>
+            <groupId>com.itextpdf</groupId>
+            <artifactId>html2pdf</artifactId>
+            <version>3.0.1</version>
+        </dependency>
+
+
         <dependency>
             <groupId>org.apache.pdfbox</groupId>
             <artifactId>fontbox</artifactId>
