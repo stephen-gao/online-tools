@@ -21,16 +21,14 @@ import java.util.Date;
  **/
 public class Pdf2Html {
 
-    public static String pdf2Html(InputStream in, String outPath, String fileName) {
+    public static String pdf2Html(String filePath, String outPath, String fileName) {
         long start = System.currentTimeMillis();
         DirUtils.makeDir(outPath);
         String outFilePath = outPath + fileName + "." + Constants.HTML;
-        try (BufferedWriter out = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(new File(outFilePath)), "UTF-8"))){
-            PDDocument document = PDDocument.load(in);
+        try (PDDocument document = PdfReader.pdfRead(filePath);Writer out = new PrintWriter(outFilePath, "utf-8")){
             PDFDomTree domTree = new PDFDomTree();
             domTree.writeText(document,out);
-            document.close();
-            in.close();
+
         } catch (IOException e) {
             System.out.println("文件转换失败:" + e.getMessage());
             throw new ToolException("文件转换失败", e);
@@ -44,19 +42,11 @@ public class Pdf2Html {
     }
 
     public static void main(String[] args) {
-        String path = "D:\\test\\pdf\\in\\合作签约操作指引(1).pdf";
-        File file = new File(path);
+        String path = "D:\\test\\pdf\\in\\测试.pdf";
         String out = "D:" + File.separator + "test" + File.separator + "pdf" + File.separator + "out" + File.separator;
         String outDir = out + DateUtils.format(new Date(), DateUtils.format1) + File.separator;
-        String s = null;
-        try {
-            FileInputStream inputStream = new FileInputStream(file);
-            String fileName = file.getName().split("\\.")[0];
-            s = pdf2Html(inputStream, outDir, fileName);
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        }
 
+        String s = pdf2Html(path, outDir, "测试");
         System.out.println(s);
     }
 

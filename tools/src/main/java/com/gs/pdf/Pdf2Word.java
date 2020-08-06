@@ -2,20 +2,22 @@ package com.gs.pdf;
 
 import com.gs.Constants;
 import com.gs.exception.ToolException;
+import com.gs.model.StEntity;
 import com.gs.utils.DateUtils;
 import com.gs.utils.DirUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.pdfbox.pdmodel.PDDocument;
-import org.apache.pdfbox.text.PDFTextStripper;
 import org.apache.poi.poifs.filesystem.DirectoryEntry;
-import org.apache.poi.poifs.filesystem.DocumentEntry;
 import org.apache.poi.poifs.filesystem.POIFSFileSystem;
 import org.fit.pdfdom.PDFDomTree;
+import sun.misc.BASE64Decoder;
 import sun.misc.BASE64Encoder;
 
 import javax.xml.parsers.ParserConfigurationException;
 import java.io.*;
+import java.util.Collection;
 import java.util.Date;
+import java.util.HashMap;
 import java.util.Map;
 
 /**
@@ -34,9 +36,9 @@ public class Pdf2Word {
         DirUtils.makeDir(outPath);
         String outFilePath = outPath + fileName + "." + Constants.DOC;
         File file = new File(outFilePath);
-        ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
-        try (BufferedWriter out = new BufferedWriter(new OutputStreamWriter(outputStream, "UTF-8"))) {
-            PDDocument document = PDDocument.load(in);
+
+        try (ByteArrayOutputStream outputStream = new ByteArrayOutputStream();PDDocument document = PDDocument.load(in);BufferedWriter out = new BufferedWriter(new OutputStreamWriter(outputStream, "UTF-8"))) {
+
             PDFDomTree pdfDomTree = new PDFDomTree();
             pdfDomTree.writeText(document, out);
 
@@ -48,7 +50,7 @@ public class Pdf2Word {
 //            content.indexOf()
 //            String s = StringUtils.("<img", "/>");
 //            System.out.println(s);
-            getImage(content);
+            convertImg(content);
             ByteArrayInputStream inputStream = new ByteArrayInputStream(content.getBytes("UTF-8"));
 
             POIFSFileSystem poifs = new POIFSFileSystem();
@@ -70,31 +72,41 @@ public class Pdf2Word {
     }
 
 
-    public static Map<String, String> getImage(String content) {
-        int index = 0;
-        int start = StringUtils.lastIndexOf(content, "<img");
-        String head = StringUtils.substring(content, 0, start);
-        String tail = StringUtils.substring(content, start, content.length());
-//            System.out.println(tail);
-        String s = StringUtils.substringBefore(tail, "/>");
-        int shead = StringUtils.lastIndexOf(s, "data:image");
-        String stail = StringUtils.substring(s, shead, s.length());
-        String image = StringUtils.substringBefore(stail, "\"");
-        System.out.println(image);
-        content = head;
+    public static void convertImg(String content) {
+        int start = 0;
+        int count = 0;
+        Map<Integer, StEntity> map = new HashMap<>(16);
+        while (start >= 0) {
+            start = StringUtils.lastIndexOf(content, "<img");
+            if (start < 0) {
+                continue;
+            }
+            String tail = StringUtils.substring(content, start);
+            String imageStr = StringUtils.substringBefore(tail, "/>") + "/>";
+            content = StringUtils.replace(content, imageStr, "$$IMAGE_INDEX" + count);
 
-        return null;
+            int imageStart = StringUtils.lastIndexOf(tail, "data:image");
+            imageStr = StringUtils.substring(imageStr, imageStart);
+            String image = StringUtils.substringBefore(imageStr, "\"");
+            String target = doCconvertImg(image);
+            map.put(count, new StEntity(count, image, target));
+            System.out.println(image);
+            System.out.println(target);
+            count++;
+        }
+        Collection<StEntity> values = map.values();
+        for (StEntity st : values) {
+            StringUtils.replace(content, st.getSource(), st.getTarget());
+        }
     }
 
     //红色部分是处理图片的代码，不然图片不会正常显示
-    public String getImageStr(String imgFile) {
-        InputStream in = null;
+    public static String doCconvertImg(String imgFile) {
+
         byte[] data = null;
         try {
-            in = new FileInputStream(imgFile);
-            data = new byte[in.available()];
-            in.read(data);
-            in.close();
+            BASE64Decoder decoder = new BASE64Decoder();
+            data = decoder.decodeBuffer(imgFile);
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -103,7 +115,7 @@ public class Pdf2Word {
     }
 
     public static void main(String[] args) {
-        String path = "D:\\test\\pdf\\in\\合作签约操作指引(1).pdf";
+        String path = "D:\\test\\pdf\\in\\测试.pdf";
         File file = new File(path);
         String out = "D:" + File.separator + "test" + File.separator + "pdf" + File.separator + "out" + File.separator;
         String outDir = out + DateUtils.format(new Date(), DateUtils.format1) + File.separator;

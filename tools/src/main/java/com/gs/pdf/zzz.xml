@@ -1,0 +1,2749 @@
+<w:body>
+    <w:p w:rsidR="00CD10AD" w:rsidRDefault="00CD10AD" w:rsidP="00CD10AD">
+        <w:pPr>
+            <w:pStyle w:val="a5"/>
+            <w:rPr>
+                <w:shd w:val="clear" w:color="auto" w:fill="FFFFFF"/>
+            </w:rPr>
+        </w:pPr>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:shd w:val="clear" w:color="auto" w:fill="FFFFFF"/>
+            </w:rPr>
+            <w:t>国际短信</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:shd w:val="clear" w:color="auto" w:fill="FFFFFF"/>
+            </w:rPr>
+            <w:t>3.</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:shd w:val="clear" w:color="auto" w:fill="FFFFFF"/>
+            </w:rPr>
+            <w:t>1.9</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:shd w:val="clear" w:color="auto" w:fill="FFFFFF"/>
+            </w:rPr>
+            <w:t>短信计费改造</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:shd w:val="clear" w:color="auto" w:fill="FFFFFF"/>
+            </w:rPr>
+            <w:t xml:space="preserve"> </w:t>
+        </w:r>
+    </w:p>
+    <w:p w:rsidR="00CD10AD" w:rsidRDefault="00CD10AD" w:rsidP="00CD10AD">
+        <w:pPr>
+            <w:rPr>
+                <w:rStyle w:val="a7"/>
+            </w:rPr>
+        </w:pPr>
+    </w:p>
+    <w:p w:rsidR="00CD10AD" w:rsidRPr="00ED4E6C" w:rsidRDefault="00CD10AD" w:rsidP="00CD10AD">
+        <w:pPr>
+            <w:rPr>
+                <w:rStyle w:val="a7"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+        </w:pPr>
+        <w:r w:rsidRPr="00ED4E6C">
+            <w:rPr>
+                <w:rStyle w:val="a7"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>概述</w:t>
+        </w:r>
+    </w:p>
+    <w:p w:rsidR="00CD10AD" w:rsidRDefault="00CD10AD" w:rsidP="00CD10AD">
+        <w:pPr>
+            <w:ind w:firstLine="420"/>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+        </w:pPr>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>为改善数据计费的入库情况</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>，</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>对原先代码进行优化</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>。</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>确保计费准确</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>，</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>同时入库加快入库操作</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>，</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>较少数据库压力</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>。</w:t>
+        </w:r>
+    </w:p>
+    <w:p w:rsidR="00CD10AD" w:rsidRPr="00ED4E6C" w:rsidRDefault="00CD10AD" w:rsidP="00CD10AD">
+        <w:pPr>
+            <w:ind w:firstLine="420"/>
+            <w:rPr>
+                <w:b/>
+                <w:bCs/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+        </w:pPr>
+    </w:p>
+    <w:p w:rsidR="00CD10AD" w:rsidRPr="00ED4E6C" w:rsidRDefault="00CD10AD" w:rsidP="00CD10AD">
+        <w:pPr>
+            <w:rPr>
+                <w:rStyle w:val="a7"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+        </w:pPr>
+        <w:r w:rsidRPr="00ED4E6C">
+            <w:rPr>
+                <w:rStyle w:val="a7"/>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>相关项目：</w:t>
+        </w:r>
+    </w:p>
+    <w:p w:rsidR="00CD10AD" w:rsidRPr="00ED4E6C" w:rsidRDefault="00CD10AD" w:rsidP="00CD10AD">
+        <w:pPr>
+            <w:ind w:firstLine="420"/>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+        </w:pPr>
+        <w:r w:rsidRPr="00ED4E6C">
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>inter-api</w:t>
+        </w:r>
+    </w:p>
+    <w:p w:rsidR="00CD10AD" w:rsidRPr="00ED4E6C" w:rsidRDefault="00CD10AD" w:rsidP="00CD10AD">
+        <w:pPr>
+            <w:ind w:firstLine="420"/>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+        </w:pPr>
+        <w:r w:rsidRPr="00ED4E6C">
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>ismpp</w:t>
+        </w:r>
+    </w:p>
+    <w:p w:rsidR="00CD10AD" w:rsidRPr="00ED4E6C" w:rsidRDefault="00CD10AD" w:rsidP="00CD10AD">
+        <w:pPr>
+            <w:ind w:firstLine="420"/>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+        </w:pPr>
+        <w:r w:rsidRPr="00ED4E6C">
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>inter-base</w:t>
+        </w:r>
+    </w:p>
+    <w:p w:rsidR="00CD10AD" w:rsidRPr="00ED4E6C" w:rsidRDefault="00CD10AD" w:rsidP="00CD10AD">
+        <w:pPr>
+            <w:ind w:firstLine="420"/>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+        </w:pPr>
+        <w:r w:rsidRPr="00ED4E6C">
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>i</w:t>
+        </w:r>
+        <w:r w:rsidRPr="00ED4E6C">
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>nter-server</w:t>
+        </w:r>
+    </w:p>
+    <w:p w:rsidR="00CD10AD" w:rsidRPr="000D23AA" w:rsidRDefault="00CD10AD" w:rsidP="00CD10AD">
+        <w:pPr>
+            <w:ind w:firstLine="420"/>
+            <w:rPr>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+        </w:pPr>
+    </w:p>
+    <w:p w:rsidR="00CD10AD" w:rsidRDefault="00CD10AD" w:rsidP="00CD10AD">
+        <w:pPr>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+        </w:pPr>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>需求</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>：</w:t>
+        </w:r>
+    </w:p>
+    <w:p w:rsidR="00CD10AD" w:rsidRDefault="00CD10AD" w:rsidP="00CD10AD">
+        <w:pPr>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+        </w:pPr>
+    </w:p>
+    <w:p w:rsidR="00CD10AD" w:rsidRPr="00ED4E6C" w:rsidRDefault="00CD10AD" w:rsidP="00CD10AD">
+        <w:pPr>
+            <w:rPr>
+                <w:rStyle w:val="a7"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+        </w:pPr>
+        <w:r w:rsidRPr="00ED4E6C">
+            <w:rPr>
+                <w:rStyle w:val="a7"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>概述</w:t>
+        </w:r>
+    </w:p>
+    <w:p w:rsidR="00CD10AD" w:rsidRDefault="00CD10AD" w:rsidP="00CD10AD">
+        <w:pPr>
+            <w:ind w:firstLine="420"/>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+        </w:pPr>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>为改善数据计费的入库情况</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>，</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>对原先代码进行优化</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>。</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>确保计费准确</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>，</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>同时入库加快入库操作</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>，</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>较少数据库压力</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>。</w:t>
+        </w:r>
+    </w:p>
+    <w:p w:rsidR="00CD10AD" w:rsidRPr="00ED4E6C" w:rsidRDefault="00CD10AD" w:rsidP="00CD10AD">
+        <w:pPr>
+            <w:ind w:firstLine="420"/>
+            <w:rPr>
+                <w:b/>
+                <w:bCs/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+        </w:pPr>
+    </w:p>
+    <w:p w:rsidR="00CD10AD" w:rsidRPr="00ED4E6C" w:rsidRDefault="00CD10AD" w:rsidP="00CD10AD">
+        <w:pPr>
+            <w:rPr>
+                <w:rStyle w:val="a7"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+        </w:pPr>
+        <w:r w:rsidRPr="00ED4E6C">
+            <w:rPr>
+                <w:rStyle w:val="a7"/>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>相关项目：</w:t>
+        </w:r>
+    </w:p>
+    <w:p w:rsidR="00CD10AD" w:rsidRPr="00ED4E6C" w:rsidRDefault="00CD10AD" w:rsidP="00CD10AD">
+        <w:pPr>
+            <w:ind w:firstLine="420"/>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+        </w:pPr>
+        <w:r w:rsidRPr="00ED4E6C">
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>inter-api</w:t>
+        </w:r>
+    </w:p>
+    <w:p w:rsidR="00CD10AD" w:rsidRPr="00ED4E6C" w:rsidRDefault="00CD10AD" w:rsidP="00CD10AD">
+        <w:pPr>
+            <w:ind w:firstLine="420"/>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+        </w:pPr>
+        <w:r w:rsidRPr="00ED4E6C">
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>ismpp</w:t>
+        </w:r>
+    </w:p>
+    <w:p w:rsidR="00CD10AD" w:rsidRPr="00ED4E6C" w:rsidRDefault="00CD10AD" w:rsidP="00CD10AD">
+        <w:pPr>
+            <w:ind w:firstLine="420"/>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+        </w:pPr>
+        <w:r w:rsidRPr="00ED4E6C">
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>inter-base</w:t>
+        </w:r>
+    </w:p>
+    <w:p w:rsidR="00CD10AD" w:rsidRPr="00ED4E6C" w:rsidRDefault="00CD10AD" w:rsidP="00CD10AD">
+        <w:pPr>
+            <w:ind w:firstLine="420"/>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+        </w:pPr>
+        <w:r w:rsidRPr="00ED4E6C">
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>i</w:t>
+        </w:r>
+        <w:r w:rsidRPr="00ED4E6C">
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>nter-server</w:t>
+        </w:r>
+    </w:p>
+    <w:p w:rsidR="00CD10AD" w:rsidRPr="000D23AA" w:rsidRDefault="00CD10AD" w:rsidP="00CD10AD">
+        <w:pPr>
+            <w:ind w:firstLine="420"/>
+            <w:rPr>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+        </w:pPr>
+    </w:p>
+    <w:p w:rsidR="00361782" w:rsidRDefault="00CD10AD" w:rsidP="00CD10AD">
+        <w:pPr>
+            <w:ind w:firstLine="420"/>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+        </w:pPr>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>需求</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>：</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>为改善数据计费的入库情况</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>，</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>对原先代码进行优化</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>。</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>确保计费准确</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>，</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>同时入库加快入库操作</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>，</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>较少数据库压力</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>。</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>为改善数据计费的入库情况</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>，</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>对原先代码进行优化</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>。</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>确保计费准确</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>，</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>同时入库加快入库操作</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>，</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>较少数据库压力</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>。</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>为改善数据计费的入库情况</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>，</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>对原先代码进行优化</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>。</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>确保计费准确</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>，</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>同时入库加快入库操作</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>，</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>较少数据库压力</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>。</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>为改善数据计费的入库情况</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>，</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>对原先代码进行优化</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>。</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>确保计费准确</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>，</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>同时入库加快入库操作</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>，</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>较少数据库压力</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>。</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>为改善数据计费的入库情况</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>，</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>对原先代码进行优化</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>。</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>确保计费准确</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>，</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>同时入库加快入库操作</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>，</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>较少数据库压力</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>。</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>为改善数据计费的入库情况</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>，</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>对原先代码进行优化</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>。</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>确保计费准确</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>，</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>同时入库加快入库操作</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>，</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>较少数据库压力</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>。</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>为改善数据计费的入库情况</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>，</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>对原先代码进行优化</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>。</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>确保计费准确</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>，</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>同时入库加快入库操作</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>，</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>较少数据库压力</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>。</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>为改善数据计费的入库情况</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>，</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>对原先代码进行优化</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>。</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>确保计费准确</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>，</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>同时入库加快入库操作</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>，</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>较少数据库压力</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>。</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>为改善数据计费的入库情况</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>，</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>对原先代码进行优化</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>。</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>确保计费准确</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>，</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>同时入库加快入库操作</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>，</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>较少数据库压力</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>。</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>为改善数据计费的入库情况</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>，</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>对原先代码进行优化</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>。</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>确保计费准确</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>，</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>同时入库加快入库操作</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>，</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>较少数据库压力</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>。</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>为改善数据计费的入库情况</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>，</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>对原先代码进行优化</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>。</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>确保计费准确</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>，</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>同时入库加快入库操作</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>，</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>较少数据库压力</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>。</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>为改善数据计费的入库情况</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>，</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>对原先代码进行优化</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>。</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>确保计费准确</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>，</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>同时入库加快入库操作</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>，</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>较少数据库压力</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>。</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>为改善数据计费的入库情况</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>，</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>对原先代码进行优化</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>。</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>确保计费准确</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>，</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>同时入库加快入</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:lastRenderedPageBreak/>
+            <w:t>库操作</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>，</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>较少数据库压力</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>。</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>为改善数据计费的入库情况</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>，</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>对原先代码进行优化</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>。</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>确保计费准确</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>，</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>同时入库加快入库操作</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>，</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>较少数据库压力</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>。</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>为改善数据计费的入库情况</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>，</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>对原先代码进行优化</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>。</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>确保计费准确</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>，</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>同时入库加快入库操作</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>，</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>较少数据库压力</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>。</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>为改善数据计费的入库情况</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>，</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>对原先代码进行优化</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>。</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>确保计费准确</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>，</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>同时入库加快入库操作</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>，</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>较少数据库压力</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>。</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>为改善数据计费的入库情况</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>，</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>对原先代码进行优化</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>。</w:t>
+        </w:r>
+    </w:p>
+    <w:p w:rsidR="00361782" w:rsidRDefault="00CD10AD" w:rsidP="00CD10AD">
+        <w:pPr>
+            <w:ind w:firstLine="420"/>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+        </w:pPr>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>确保计费准确</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>，</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>同时入库加快入库操作</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>，</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>较少数据库压力</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>。</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>为改善数据计费的入库情况</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>，</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>对原先代码进行优化</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>。</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>确保计费准确</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>，</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>同时入库加快入库操作</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>，</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>较少数据库压力</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>。</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>为改善数据计费的入库情况</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>，</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>对原先代码进行优化</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>。</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>确保计费准确</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>，</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>同时入库加快入库操作</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>，</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>较少数据库压力</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>。</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>为改善数据计费的入库情况</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>，</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>对原先代码进行优化</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>。</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>确保计费准确</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>，</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>同时入库加快入库操作</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>，</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>较少数据库压力</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>。</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>为改善数据计费的入库情况</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>，</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>对原先代码进行优化</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>。</w:t>
+        </w:r>
+    </w:p>
+    <w:p w:rsidR="00CD10AD" w:rsidRDefault="00CD10AD" w:rsidP="00CD10AD">
+        <w:pPr>
+            <w:ind w:firstLine="420"/>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+        </w:pPr>
+        <w:bookmarkStart w:id="0" w:name="_GoBack"/>
+        <w:bookmarkEnd w:id="0"/>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>确保计费准确</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>，</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>同时入库加快入库操作</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>，</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>较少数据库压力</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>。</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>为改善数据计费的入库情况</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>，</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>对原先代码进行优化</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>。</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>确保计费准确</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>，</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>同时入库加快入库操作</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>，</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>较少数据库压力</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>。</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>为改善数据计费的入库情况</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>，</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>对原先代码进行优化</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>。</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>确保计费准确</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>，</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>同时入库加快入库操作</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>，</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>较少数据库压力</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>。</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>为改善数据计费的入库情况</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>，</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>对原先代码进行优化</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>。</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>确保计费准确</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>，</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>同时入库加快入库操作</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>，</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>较少数据库压力</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>。</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>为改善数据计费的入库情况</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>，</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>对原先代码进行优化</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>。</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>确保计费准确</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>，</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>同时入库加快入库操作</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>，</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>较少数据库压力</w:t>
+        </w:r>
+        <w:r>
+            <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+            <w:t>。</w:t>
+        </w:r>
+    </w:p>
+    <w:p w:rsidR="00CD10AD" w:rsidRPr="00CD10AD" w:rsidRDefault="00CD10AD" w:rsidP="00CD10AD">
+        <w:pPr>
+            <w:ind w:firstLine="420"/>
+            <w:rPr>
+                <w:color w:val="000000" w:themeColor="text1"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+            </w:rPr>
+        </w:pPr>
+    </w:p>
+    <w:p w:rsidR="00CD10AD" w:rsidRPr="00451E86" w:rsidRDefault="00CD10AD" w:rsidP="00CD10AD"/>
+    <w:p w:rsidR="000260F0" w:rsidRDefault="000260F0"/>
+    <w:sectPr w:rsidR="000260F0">
+        <w:pgSz w:w="11906" w:h="16838"/>
+        <w:pgMar w:top="1440" w:right="1800" w:bottom="1440" w:left="1800" w:header="851" w:footer="992" w:gutter="0"/>
+        <w:cols w:space="425"/>
+        <w:docGrid w:type="lines" w:linePitch="312"/>
+    </w:sectPr>
+</w:body>

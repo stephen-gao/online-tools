@@ -33,8 +33,7 @@ public class Pdf2Png {
         String tempPath = outPath + UUID.randomUUID().toString() + File.separator;
         //创建输出文件夹
         DirUtils.makeDir(tempPath);
-        try {
-            PDDocument document = PDDocument.load(in);
+        try (PDDocument document = PDDocument.load(in)) {
             int pages = document.getNumberOfPages();
             PDFRenderer renderer = new PDFRenderer(document);
             for (int i = 0; i < pages; i++) {
@@ -44,8 +43,6 @@ public class Pdf2Png {
                 File image = new File(outName);
                 ImageIO.write(bufferedImage, Constants.PNG, image);
             }
-            document.close();
-            in.close();
         } catch (IOException e) {
             System.out.println("文件转换失败:" + e.getMessage());
             throw new ToolException("文件转换失败", e);
@@ -62,11 +59,10 @@ public class Pdf2Png {
         String out = "D:" + File.separator + "test" + File.separator + "pdf" + File.separator + "out" + File.separator;
         String outDir = out + DateUtils.format(new Date(), DateUtils.format1) + File.separator;
         String s = null;
-        try {
-            FileInputStream inputStream = new FileInputStream(file);
+        try (FileInputStream inputStream = new FileInputStream(file)) {
             String fileName = file.getName().split("\\.")[0];
-            s = pdf2Png(inputStream, outDir, fileName);
-        } catch (FileNotFoundException e) {
+            s = pdf2Png(inputStream, outDir, "合作签约操作指引(1)");
+        } catch (IOException e) {
             e.printStackTrace();
         }
 
