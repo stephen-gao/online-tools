@@ -6,8 +6,10 @@ import com.gs.model.PdfEntity;
 import com.gs.model.PdfPage;
 import com.gs.utils.DateUtils;
 import com.gs.utils.DirUtils;
+import com.gs.word.WordUtils;
 import org.apache.pdfbox.pdmodel.PDDocument;
 import org.apache.pdfbox.pdmodel.PDPageTree;
+import org.apache.poi.xwpf.usermodel.*;
 import org.dom4j.Attribute;
 import org.dom4j.Element;
 import org.dom4j.Text;
@@ -88,16 +90,26 @@ public class Pdf2Xml {
 
 
             System.out.println();
-//            PDFDomTree pdfDomTree = new PDFDomTree();
-//            pdfDomTree.writeText(document, out);
-//            String content = outputStream.toString();
+            XWPFDocument word = new XWPFDocument();
+            XWPFParagraph paragraph = word.createParagraph();
+            paragraph.setAlignment(ParagraphAlignment.LEFT);//设置段落内容靠
+            paragraph.setIndentationRight(500);//末尾缩进300
+            for (int i = 0; i < pdfPages.size(); i++) {
+                PdfPage pdfPage = pdfPages.get(i);
+                List<PdfEntity> rows = pdfPage.getRows();
+                XWPFRun run = paragraph.createRun();
+                for(PdfEntity entity :rows){
+                    Map<String, String> style = entity.getStyle();
+                    if(!style.containsKey("letter-spacing")){
+                        run.addBreak();
+                        run = paragraph.createRun();
+                    }
+                    run.setText(entity.getText());
+                }
+                run.addBreak(BreakType.PAGE);//添加一个回车空行pdfPages
+            }
 
-
-//            FileOutputStream fileOutputStream = new FileOutputStream(outFile);
-//            Writer writer = new OutputStreamWriter(fileOutputStream);
-//            writer.write(content);
-//            writer.close();
-//            fileOutputStream.close();
+            WordUtils.outWord("D:" + File.separator + "test" + File.separator + "word" + File.separator + "out" + File.separator,"testword.",word);
 
         } catch (IOException e) {
             System.out.println("文件转换失败:" + e.getMessage());
