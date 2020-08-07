@@ -2,7 +2,8 @@ package com.gs.pdf;
 
 import com.gs.Constants;
 import com.gs.exception.ToolException;
-import com.gs.model.StEntity;
+import com.gs.model.ImageRow;
+import com.gs.model.Row;
 import com.gs.utils.DateUtils;
 import com.gs.utils.DirUtils;
 import org.apache.commons.lang3.StringUtils;
@@ -13,7 +14,9 @@ import org.fit.pdfdom.PDFDomTree;
 import sun.misc.BASE64Decoder;
 import sun.misc.BASE64Encoder;
 
+import javax.imageio.ImageIO;
 import javax.xml.parsers.ParserConfigurationException;
+import java.awt.image.BufferedImage;
 import java.io.*;
 import java.util.Collection;
 import java.util.Date;
@@ -46,6 +49,7 @@ public class Pdf2Word {
             int index = StringUtils.indexOfIgnoreCase(content, r1);
             //截取<html></html>包围的
             content = StringUtils.substring(content, index);
+            System.out.println(content);
 //            System.out.println(content);
 //            content.indexOf()
 //            String s = StringUtils.("<img", "/>");
@@ -73,45 +77,46 @@ public class Pdf2Word {
 
 
     public static void convertImg(String content) {
-        int start = 0;
-        int count = 0;
-        Map<Integer, StEntity> map = new HashMap<>(16);
-        while (start >= 0) {
-            start = StringUtils.lastIndexOf(content, "<img");
-            if (start < 0) {
-                continue;
-            }
-            String tail = StringUtils.substring(content, start);
-            String imageStr = StringUtils.substringBefore(tail, "/>") + "/>";
-            content = StringUtils.replace(content, imageStr, "$$IMAGE_INDEX" + count);
-
-            int imageStart = StringUtils.lastIndexOf(tail, "data:image");
-            imageStr = StringUtils.substring(imageStr, imageStart);
-            String image = StringUtils.substringBefore(imageStr, "\"");
-            String target = doCconvertImg(image);
-            map.put(count, new StEntity(count, image, target));
-            System.out.println(image);
-            System.out.println(target);
-            count++;
-        }
-        Collection<StEntity> values = map.values();
-        for (StEntity st : values) {
-            StringUtils.replace(content, st.getSource(), st.getTarget());
-        }
+//        int start = 0;
+//        int count = 0;
+//        Map<Integer, Row> map = new HashMap<>(16);
+//        while (start >= 0) {
+//            start = StringUtils.lastIndexOf(content, "<img");
+//            if (start < 0) {
+//                continue;
+//            }
+//            String tail = StringUtils.substring(content, start);
+//            String imageStr = StringUtils.substringBefore(tail, "/>") + "/>";
+//            content = StringUtils.replace(content, imageStr, "$$IMAGE_INDEX" + count);
+//
+//            int imageStart = StringUtils.lastIndexOf(tail, "data:image");
+//            imageStr = StringUtils.substring(imageStr, imageStart);
+//            String image = StringUtils.substringBefore(imageStr, "\"");
+//            String target = doCconvertImg(image);
+////            map.put(count, new R(count, image, target));
+//            ImageRow imageRow = new ImageRow();
+//            imageRow.setType(1);
+////            imageRow.setImage();
+//            map.put(count,)
+//            System.out.println(image);
+//            System.out.println(target);
+//            count++;
+//        }
     }
 
     //红色部分是处理图片的代码，不然图片不会正常显示
-    public static String doCconvertImg(String imgFile) {
-
-        byte[] data = null;
+    public static BufferedImage doCconvertImg(String imgFile) {
+        BufferedImage bi1 = null;
         try {
             BASE64Decoder decoder = new BASE64Decoder();
-            data = decoder.decodeBuffer(imgFile);
+            byte[] data = decoder.decodeBuffer(imgFile);
+            ByteArrayInputStream bais = new ByteArrayInputStream(data);
+            bi1 = ImageIO.read(bais);
         } catch (IOException e) {
             e.printStackTrace();
         }
-        BASE64Encoder encoder = new BASE64Encoder();
-        return encoder.encode(data);
+
+        return bi1;
     }
 
     public static void main(String[] args) {
